@@ -157,3 +157,46 @@ section {
   object-fit: cover;
   border-radius: 10px;
 }
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    width: 90%;
+    text-align: center;
+  }
+
+  .logo img {
+    width: 50px;
+    height: auto;
+  }
+
+  header h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .universe-card,
+  .comics-section {
+    padding: 15px;
+  }
+
+  .comics-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .comic-card {
+    text-align: center;
+    padding: 10px;
+  }
+
+  #footer {
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+}
